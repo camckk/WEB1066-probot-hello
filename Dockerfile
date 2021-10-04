@@ -2,7 +2,7 @@
 FROM node:8-onbuild
 
 # use debug to troubleshoot
-ENV LOG_LEVEL=error
+ENV LOG_LEVEL=debug
 # Required env settings determined by GitHub App
 ENV APP_ID=1234
 ENV WEBHOOK_SECRET=development
